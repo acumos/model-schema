@@ -1,0 +1,108 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "self": {
+        "name": "acumos.schema.model",
+        "version": "0.1.0"
+        },
+    "properties": {
+        "schema": {"type": "string"},
+        "runtime": {"$ref": "#/definitions/Runtime"},
+        "methods": {"type": "array", "items": {"$ref": "#/definitions/Method"}}
+        },
+    "required": ["runtime", "methods", "schema"],
+    "definitions": {
+        "Runtime": {
+            "type": "object",
+            "properties": {
+                "name": {"enum": ["python", "r", "java"]},
+                "version": {"type": "string"},
+                "dependencies": {
+                    "oneOf": [
+                        {"$ref": "#/definitions/PythonDependencies"}
+                        ]
+                    }
+                },
+            "required": ["name", "version", "dependencies"]
+            },
+        "PythonDependencies": {
+            "type": "object",
+            "properties": {
+                "conda": {"$ref": "#/definitions/CondaRequirements"},
+                "pip": {"$ref": "#/definitions/PipRequirements"}
+                },
+            "required": ["pip", "conda"]
+            },
+        "PipRequirements": {
+            "type": "object",
+            "properties": {
+                "indexes": {"type": "array", "items": {"type": "string"}},
+                "requirements": {"type": "array", "items": {"$ref": "#/definitions/PythonRequirement"}}
+                },
+            "required": ["indexes", "requirements"]
+            },
+        "CondaRequirements": {
+            "type": "object",
+            "properties": {
+                "channels": {"type": "array", "items": {"type": "string"}},
+                "requirements": {"type": "array", "items": {"$ref": "#/definitions/PythonRequirement"}}
+                },
+            "required": ["channels", "requirements"]
+            },
+       "PythonRequirement": {
+            "type": "object",
+            "properties": {
+                "name": {"type": "string"},
+                "version": {"type": "string"}
+                },
+            "required": ["name", "version"]
+            },
+       "Method": {
+            "type": "object",
+            "properties": {
+                "name": {"type": "string"},
+                "description": {"type": "string"},
+                "signature": {"$ref": "#/definitions/MethodSignature"}
+                },
+            "required": ["name", "description", "signature"]
+            },
+        "MethodSignature": {
+            "type": "object",
+            "properties": {
+                "parameters": {"type": "array", "items": {"$ref": "#/definitions/Parameter"}},
+                "return": {"$ref": "#/definitions/Type"}
+                },
+            "required": ["parameters", "return"]
+            },
+        "Parameter": {
+            "type": "object",
+            "properties": {
+                "name": {"type": "string"},
+                "description": {"type": "string"},
+                "type": {"$ref": "#/definitions/Type"}
+                },
+            "dependencies": {
+                "schema": {"properties": {"media": {"enum": ["application/json"]}}},
+                "format": {"properties": {"media": {"enum": ["application/json"]}}}
+                },
+            "required": ["name", "description", "type"]
+            },
+        "Type": {
+            "type": "object",
+            "oneOf": [
+                {
+                  "properties": {
+                    "media": {"enum": ["application/json"]},
+                    "schema": {"type": "string"},
+                    "format": {"type": "object"}
+                    },
+                  "required": ["media", "schema", "format"]
+                },
+                {
+                  "properties": {
+                    "media": {"type": "string", "pattern": "^(?!.*application/json).*$"}
+                    },
+                  "required": ["media"]
+                }]
+            }
+        }
+}
