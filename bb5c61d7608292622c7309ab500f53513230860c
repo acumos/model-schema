@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "14d7a533_17061886",
+        "filename": "schema-0.1.0.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2017-11-22T17:29:09Z",
+      "side": 1,
+      "message": "Test only: Looks like you can open a file and add a comment on a specific line/edit.",
+      "revId": "bb5c61d7608292622c7309ab500f53513230860c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
+    }
+  ]
+}
