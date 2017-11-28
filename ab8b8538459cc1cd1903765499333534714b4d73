@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e7cb95ec_150253e5",
+        "filename": "LICENSE.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2017-11-28T21:01:38Z",
+      "side": 1,
+      "message": "Please use the appropriate version of this file; this one omits the copyright notice and date.",
+      "revId": "ab8b8538459cc1cd1903765499333534714b4d73",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
