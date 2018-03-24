@@ -23,5 +23,5 @@ Model Schema
 .. toctree::
        :maxdepth: 2
 
-       developer-guide
        release-notes
+       developer-guide

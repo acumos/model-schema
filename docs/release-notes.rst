@@ -16,9 +16,9 @@
 .. limitations under the License.
 .. ===============LICENSE_END=========================================================
 
-=============
-Release Notes
-=============
+==========================
+Model Schema Release Notes
+==========================
 
 Version 0.5.0
 =============
@@ -26,7 +26,7 @@ Version 0.5.0
 
 Example:
 
-.. code:: JSON
+.. code:: json
 
     {
       "schema": "acumos.schema.model:0.5.0",
@@ -71,7 +71,7 @@ Version 0.4.0
 
 Example:
 
-.. code-block:: JSON
+.. code:: json
 
     {
       "schema": "acumos.schema.model:0.4.0",
