@@ -19,6 +19,41 @@
     },
     {
       "key": {
+        "uuid": "41f27c9f_b10c8e65",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2019-10-08T16:14:49Z",
+      "side": 1,
+      "message": "I think that\u0027s correct.",
+      "parentUuid": "55fb21fc_0e370ab4",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "efcbbf8a_1f0fa532",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2019-10-08T16:14:49Z",
+      "side": 1,
+      "message": "I know we use it almost as a synonym, but is conda a required field for a python dependency?",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "62f1a772_56e76cef",
         "filename": "schema-0.6.0.json",
         "patchSetId": 5
@@ -33,6 +68,24 @@
       "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
       "serverId": "655300a2-7a56-4504-9153-881edd907bea",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "be92faa6_e9d2d952",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2019-10-08T16:14:49Z",
+      "side": 1,
+      "message": "I don\u0027t know if you need the type argument; if so, other blocks (VoidFunction -\u003emedia_type,Definition-\u003eRuntime-\u003ename) are also missing this.",
+      "parentUuid": "62f1a772_56e76cef",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
     },
     {
       "key": {
