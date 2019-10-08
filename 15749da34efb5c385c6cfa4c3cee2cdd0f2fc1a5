@@ -54,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "809e7b80_ad2d1857",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2019-10-08T19:11:07Z",
+      "side": 1,
+      "message": "I think it\u0027s required for the metadata to be considered well-formed, in the event that a downstream component is installing conda packages. E.g. you could get a KeyError or similar, or not if coding defensively.",
+      "parentUuid": "efcbbf8a_1f0fa532",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "62f1a772_56e76cef",
         "filename": "schema-0.6.0.json",
         "patchSetId": 5
@@ -83,6 +101,24 @@
       "side": 1,
       "message": "I don\u0027t know if you need the type argument; if so, other blocks (VoidFunction -\u003emedia_type,Definition-\u003eRuntime-\u003ename) are also missing this.",
       "parentUuid": "62f1a772_56e76cef",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cc47470e_8041bbd0",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2019-10-08T19:11:07Z",
+      "side": 1,
+      "message": "I think enum without a type is for supporting heterogeneous types: https://json-schema.org/understanding-json-schema/reference/generic.html#enumerated-values\n\nSince in all cases the type is string, I think \"type: string\" is more correct / preferable here.\n\nNice catch, then the Runtime.name field should also be \"type: string\", as expected of a name.",
+      "parentUuid": "be92faa6_e9d2d952",
       "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
       "serverId": "655300a2-7a56-4504-9153-881edd907bea",
       "unresolved": true
