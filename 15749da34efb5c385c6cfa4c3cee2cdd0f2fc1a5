@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "55fb21fc_0e370ab4",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2019-10-08T14:25:36Z",
+      "side": 1,
+      "message": "\"runtime\" is missing a type. It should be \"type: array\" correct?",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "62f1a772_56e76cef",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2019-10-08T14:25:36Z",
+      "side": 1,
+      "message": "Two comments:\n1. As-is, I believe we need \"type: string\" here, in addition to the \"enum\" field.\n\n2. Instead of a single string, should media_type by a list of strings? For example, a model method that consumes protobuf also consumes application/json, since there is a 1:1 mapping from protobuf to json.",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba25379a_78b519f7",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2019-10-08T14:25:36Z",
+      "side": 1,
+      "message": "My media type comment above also applies here",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
