@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "1c7ef6c4_337b7878",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 210
+      },
+      "writtenOn": "2019-10-09T00:50:52Z",
+      "side": 1,
+      "message": "The schema that currently acumos-python-client using is schema-0.4.0 (you can find it in acumos-python-client/acumos/metadata.py). In schema-0.4.0 the \u0027runtime\u0027 is not an \u0027array\u0027 type. My code in acumos-python-client is based on schema-0.4.0 and I don\u0027t know why schema-0.5.0 is not used, that\u0027s why I didn\u0027t put \"type: array\" here.",
+      "parentUuid": "41f27c9f_b10c8e65",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "efcbbf8a_1f0fa532",
         "filename": "schema-0.6.0.json",
         "patchSetId": 5
@@ -119,6 +137,24 @@
       "side": 1,
       "message": "I think enum without a type is for supporting heterogeneous types: https://json-schema.org/understanding-json-schema/reference/generic.html#enumerated-values\n\nSince in all cases the type is string, I think \"type: string\" is more correct / preferable here.\n\nNice catch, then the Runtime.name field should also be \"type: string\", as expected of a name.",
       "parentUuid": "be92faa6_e9d2d952",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1f8c2f13_2bb2dd3b",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 210
+      },
+      "writtenOn": "2019-10-09T00:50:52Z",
+      "side": 1,
+      "message": "agreed. I will add \"type:string\".",
+      "parentUuid": "cc47470e_8041bbd0",
       "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
       "serverId": "655300a2-7a56-4504-9153-881edd907bea",
       "unresolved": true
