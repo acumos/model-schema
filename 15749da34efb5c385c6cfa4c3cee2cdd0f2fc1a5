@@ -161,6 +161,24 @@
     },
     {
       "key": {
+        "uuid": "68e3338d_8310edb9",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 210
+      },
+      "writtenOn": "2019-10-09T00:56:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f8c2f13_2bb2dd3b",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba25379a_78b519f7",
         "filename": "schema-0.6.0.json",
         "patchSetId": 5
@@ -172,6 +190,24 @@
       "writtenOn": "2019-10-08T14:25:36Z",
       "side": 1,
       "message": "My media type comment above also applies here",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2641caf5_aed6b37a",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 210
+      },
+      "writtenOn": "2019-10-09T00:56:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba25379a_78b519f7",
       "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
       "serverId": "655300a2-7a56-4504-9153-881edd907bea",
       "unresolved": false
