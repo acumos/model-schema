@@ -90,6 +90,24 @@
     },
     {
       "key": {
+        "uuid": "f038591a_fa7aca40",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 210
+      },
+      "writtenOn": "2019-10-09T01:18:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "809e7b80_ad2d1857",
+      "revId": "15749da34efb5c385c6cfa4c3cee2cdd0f2fc1a5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "62f1a772_56e76cef",
         "filename": "schema-0.6.0.json",
         "patchSetId": 5
