@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "26433a65_fe31fac2",
+        "filename": "schema-0.6.0.json",
+        "patchSetId": 7
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2019-10-14T17:35:47Z",
+      "side": 1,
+      "message": "Typo here: outnput",
+      "revId": "942038292cdd4c59f950efa61039cdad56fa183f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
