@@ -2,4 +2,3 @@
 #
 42f0c83244389e408b42fa668348002012ecba46                                       	GitHub Replication
 e0d0a6b3e47bfbe6e356c94ee6b80307c673204b                                       	saml/acumos-gerrit-model-schema-committers
-ldap:cn=acumos-gerrit-model-schema-committers,ou=Groups,dc=freestandards,dc=org	ldap/acumos-gerrit-model-schema-committers
